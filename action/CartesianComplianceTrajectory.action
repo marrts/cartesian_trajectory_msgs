@@ -1,0 +1,22 @@
+# Goal
+cartesian_msgs/CartesianTrajectory trajectory
+cartesian_msgs/CartesianTolerance path_tolerance
+cartesian_msgs/CartesianTolerance goal_tolerance
+geometry_msgs/Wrench force
+float64 speed
+
+---
+
+# Result
+bool success
+string err_msg
+
+---
+
+# Feedback
+Header header
+string tcp_frame
+cartesian_msgs/CartesianTrajectoryPoint desired
+cartesian_msgs/CartesianTrajectoryPoint virtual_desired
+cartesian_msgs/CartesianTrajectoryPoint actual
+cartesian_msgs/CartesianTrajectoryPoint error
