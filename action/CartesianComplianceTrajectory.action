@@ -14,7 +14,7 @@ string err_msg
 ---
 
 # Feedback
-Header header
+std_msgs/Header header
 string tcp_frame
 cartesian_trajectory_msgs/CartesianTrajectoryPoint desired
 cartesian_trajectory_msgs/CartesianTrajectoryPoint virtual_desired
