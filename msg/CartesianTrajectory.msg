@@ -1,4 +1,4 @@
 Header header
-cartesian_msgs/CartesianTrajectoryPoint[] points
+cartesian_trajectory_msgs/CartesianTrajectoryPoint[] points
 geometry_msgs/Pose tcp_offset
 string tcp_frame

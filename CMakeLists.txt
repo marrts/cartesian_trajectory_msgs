@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.5)
-project(cartesian_msgs)
+project(cartesian_trajectory_msgs)
 
 find_package(catkin REQUIRED COMPONENTS
     actionlib_msgs
